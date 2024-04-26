@@ -11,7 +11,7 @@ function mincost(arr)
 			let newRope=firstValue+secondValue;
 			cost+=newRope;
 			arr.push(newRope);
-			arr.sort();
+			 arr.sort((a, b) => a - b);
 		}
 	return cost;
   
